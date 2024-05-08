@@ -16,10 +16,15 @@ Basta clicar em uma das opções: ✊ para Pedra, ✋ para Papel ou ✌️ para 
 
 Nenhum software adicional é necessário para rodar este jogo além de um navegador web compatível.
 
+## 📷 Screenshots
+
+![Screenshot do jogo](Tela de início do jogo.png)
+
 ## Como Executar 🚀
 
 1. Clone este [repositório](https://github.com/NathSantos2024/Pedra_Papel_Tesoura).
 2. Abra o arquivo `index.html` no seu navegador web.
+Ou, se preferir, você pode jogar agora mesmo online [clicando aqui](https://nathsantos2024.github.io/Pedra_Papel_Tesoura/).
 
 ## Contribuição 🤝
 
