@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang= pt>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Nathalia Santos">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15+Charted&family=Jersey+20+Charted&family=Jersey+25&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>PedraPapelTesoura</title>
+</head>
+<body class="banner">
+<header class="logo">
+    <img src="./src/img/titulo_logo.jpg" alt="Nome do Jogo">
+</header>
+    <div class="container">
+        <h1>Vamos começar?</h1>
+        <div class="buttons">
+            <button id="pedra" onclick="clickBotao('pedra')">
+                <img src="./src/img/pedra.png" alt="Pedra">
+            </button>
+            <button id="papel" onclick="clickBotao('papel')">
+                <img src="./src/img/papel.png" alt="Papel">
+            </button>
+            <button id="tesoura" onclick="clickBotao('tesoura')">
+                <img src="./src/img/tesoura.png" alt="Tesoura">
+            </button>
+        </div>
+
+        <p id="escolhas">Sua escolha foi: <br> Minha escolha foi: </p>
+
+        <p>
+            Sua pontuação: <span id="pontuacao-jogador">0</span>
+            <br>
+            Minha pontuação: <span id="pontuacao-bot">0</span>
+        </p>
+        <p id="empate">  
+        Empate:  <span id="pontuacao-empate">0</span></p>
+        <p id="resultado"></p>
+        <button id="restart" onclick="restart('reiniciar')">RESTART</button>
+    </div>
+<script src="./src/js/script.js"></script>
+</body>
+</html>
+

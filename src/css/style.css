@@ -1,0 +1,113 @@
+
+.banner::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(../img/pedra-colorida-papel-tesoura-padrao-vetor.png);
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.3;
+  }
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100%;
+}  
+
+.logo {
+    position: absolute;
+    top: 25px; 
+    align-items: center; 
+}
+
+.logo img {
+    width: 600px; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 65vh;
+    max-width: 600px; /* Define a largura máxima do container */
+    margin-top: 500px; /* Centraliza o container na página */
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo com opacidade */
+    border-radius: 10px; /* Borda arredondada */
+    line-height: 30px;
+}
+
+/* Estilos para o título */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+/* Estilos para os botões */
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.buttons button {
+    border: none;
+    cursor: pointer;
+    background: none;
+    transition: transform 0.5s;
+}
+
+button:hover {
+    transform: translateY(-10px)
+}
+
+.buttons button img {
+    width: 200px; /* Define a largura das imagens */
+    height: 200px; /* Altura automática para manter a proporção */
+    border-radius: 15%; /* Transforma a imagem em um círculo */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra suave */
+    padding: 20px;
+}
+
+.buttons button:focus {
+    outline: none; /* Remove a borda de foco ao clicar no botão */
+}
+
+/* Estilos para os parágrafos de pontuação */
+p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* Estilos para o botão de reiniciar */
+#restart {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #0cb7f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 500;
+}
+
+/* Estilos para o resultado */
+#resultado {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
