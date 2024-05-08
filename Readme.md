@@ -18,7 +18,7 @@ Nenhum software adicional é necessário para rodar este jogo além de um navega
 
 ## 📷 Screenshots
 
-![Screenshot do jogo](Tela de início do jogo.png)
+![Screenshot do jogo](https://github.com/NathSantos2024/Pedra_Papel_Tesoura/blob/master/Tela%20de%20in%C3%ADcio%20do%20jogo.png)
 
 ## Como Executar 🚀
 
