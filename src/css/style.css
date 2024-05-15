@@ -111,3 +111,32 @@ p {
     font-weight: bold;
     margin-bottom: 20px;
 }
+
+
+@media (max-width: 320px) {
+    .buttons button img {
+        width: 95px;
+        height: 95px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .buttons button img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .buttons button img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+    .container {
+        margin-top: 400px;
+        padding: 10px;
+    }
+}
